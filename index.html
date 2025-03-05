@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1 id="title">Title</h1>
+  <p id="description">description</p>
+
+  <form action="" id="survey-form" method="post">
+    <label for="name" id="name-label">Input yout name:</label>
+    <input type="text" id="name" required placeholder="Jan"><br>
+    <label for="email" id="email-label">Input your email:</label>
+    <input type="email" name="email" id="email" required placeholder="email@gmail.com"><br>
+    <label for="number" id="number-label">Input a nuber between 5 and 50:</label>
+    <input type="number" name="number" id="number" min="5" max="50" placeholder="5"><br>
+    <br>
+
+    <select name="dropdown" id="dropdown">
+      <option value="1">option 1</option>
+      <option value="2">option 2</option>
+    </select>
+    <br><br>
+
+    <fieldset>
+      <legend>Radio group</legend>
+      <label for="radio1">option 1:</label>
+      <input type="radio" name="radio" id="radio1" value="1"><br>
+      <label for="radio2">option 2:</label>
+      <input type="radio" name="radio" id="radio2" value="2">
+    </fieldset>
+
+    <fieldset>
+      <legend>Check boxes and extra</legend>
+      <label for="c1">option 1:</label>
+      <input type="checkbox" name="check" id="c1" value="1"><br>
+      <label for="c2">option 2:</label>
+      <input type="checkbox" name="check" id="c2" value="2"><br>
+      <br>
+
+      <textarea name="txtarea" id="txtArea"></textarea>
+
+
+    </fieldset>
+    <button type="submit" id="submit">submit</button>
+  </form>
+
+</body>
+
+</html>
